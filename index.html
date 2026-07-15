@@ -5,12 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelven Camargo | Desenvolvedor</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2316213e%22/><text x=%2250%22 y=%2265%22 font-size=%2245%22 font-weight=%22bold%22 fill=%22%234ade80%22 text-anchor=%22middle%22 font-family=%22Arial%22>KC</text></svg>">
+    <meta name="description"
+        content="Portfólio de Kelven Felix, desenvolvedor Front-end & Back-end com experiência em Java, Angular, JavaScript e TypeScript.">
+
+    <meta property="og:title" content="Kelven Felix | Desenvolvedor">
+    <meta property="og:description"
+        content="Portfólio pessoal com projetos, tecnologias e experiência em desenvolvimento web.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kelvencfelix.github.io/meu-portfolio/">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <span class="logo">KC</span>
+            <div class="nav-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#skills">Skills</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </div>
+    </nav>
     <header class="hero">
         <div class="container">
+            <div class="avatar">KC</div>
             <h1>Kelven Felix</h1>
             <p class="subtitulo">Desenvolvedor Front-end & Back-end</p>
             <p class="descricao">2 anos de experiência prática com Java, Angular, JavaScript e TypeScript. Sempre
@@ -78,6 +101,11 @@
             <h2>Vamos conversar?</h2>
             <p>Tô em busca de oportunidade como desenvolvedor. Se você chegou até aqui, manda um alô.</p>
             <a href="mailto:kelvem.camargo@gmail.com" class="botao">kelvem.camargo@gmail.com</a>
+            <div class="contato-icones">
+                <a href="https://github.com/KelvenCFelix" target="_blank" aria-label="GitHub">
+                    <i data-lucide="github"></i>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -87,6 +115,9 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 
 </html>
